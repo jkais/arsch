@@ -1,3 +1,3 @@
 swayidle -w \
   timeout 300 'hyprlock' \
-  timeout 600 'hyprlock && systemctl suspend'
+  timeout 600 'systemctl suspend'
