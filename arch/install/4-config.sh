@@ -9,6 +9,5 @@ fi
 # Copy all config files to .config
 SOURCE_DIR="$HOME/.local/share/arsch/config"
 CONFIG_DIR="$HOME/.config"
-echo "Copying .config files..."
-cp -rv "$SOURCE_DIR"/* "$CONFIG_DIR"
+cp -r "$SOURCE_DIR"/* "$CONFIG_DIR"
 exit
