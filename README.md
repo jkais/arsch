@@ -23,6 +23,7 @@
 - Login sddm
 
 - Make hyprlock great
+- Autolock doesn't work
 
 - Go through https://wiki.hypr.land/Hypr-Ecosystem/
 
