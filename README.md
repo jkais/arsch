@@ -39,5 +39,6 @@ Work
 - Slack
 - Postman
 - Bruno
+- Waydroid
 
 # Configs
