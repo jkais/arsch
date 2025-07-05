@@ -1,3 +1,5 @@
 yay -S --noconfirm --needed \
-hyprland
+  ttf-dejavu ttf-liberation noto-fonts \
+  fontconfig hyprland
 
+fc-cache -fv
