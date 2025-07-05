@@ -15,14 +15,29 @@
 ## Todo
 
 - Monitor-Setting
+- Multi-Monitor Setup
 - Resolution + Font-Size
 - Terminal
 - Secrets
+
+- Login sddm
+
+- Go through https://wiki.hypr.land/Hypr-Ecosystem/
+
+- Look at neovim? Can it replace vim for me?
 
 ### Waybar
 
 # Shortcuts
 
 # Programme
+
+- VS Code
+
+Work
+- Teams
+- Slack
+- Postman
+- Bruno
 
 # Configs
