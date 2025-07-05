@@ -10,4 +10,3 @@ fi
 SOURCE_DIR="$HOME/.local/share/arsch/config"
 CONFIG_DIR="$HOME/.config"
 cp -r "$SOURCE_DIR"/* "$CONFIG_DIR"
-exit
