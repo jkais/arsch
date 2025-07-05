@@ -17,6 +17,7 @@
 - Monitor-Setting
 - Resolution + Font-Size
 - Terminal
+- Secrets
 
 ### Waybar
 
