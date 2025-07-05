@@ -7,3 +7,5 @@ yay -S --noconfirm --needed \
   swayidle \
   vim tig \
   spotify teams-for-linux \
+
+  sudo systemctl enable sddm
