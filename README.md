@@ -7,6 +7,7 @@
 - Use archinstall
 -- Options TBD
 
+```wget -qO- https://raw.githubusercontent.com/jkais/arsch/refs/heads/main/install | bash```
 
 # Hyprland
 
