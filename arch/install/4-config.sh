@@ -10,3 +10,8 @@ fi
 SOURCE_DIR="$HOME/.local/share/arsch/config"
 CONFIG_DIR="$HOME/.config"
 cp -r "$SOURCE_DIR"/* "$CONFIG_DIR"
+
+# Copy all share files to /usr/share
+SOURCE_DIR="$HOME/.local/share/arsch/share"
+CONFIG_DIR="/usr/share"
+cp -r "$SOURCE_DIR"/* "$CONFIG_DIR"
