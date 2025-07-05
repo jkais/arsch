@@ -5,3 +5,4 @@ echo "HERE WE GO!"
 rm -rf ~/.local/share/arsch/
 git clone https://github.com/jkais/arsch.git ~/.local/share/arsch >/dev/null
 
+source ~/.local/share/arsch/arch/install.sh
