@@ -1,4 +1,4 @@
 yay -S --noconfirm --needed \
-  wget curl unzip inetutils ssh \
+  wget curl unzip inetutils openssh \
   vim tig \
   man less whois fastfetch btop \
