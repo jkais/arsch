@@ -22,6 +22,8 @@
 
 - Login sddm
 
+- Make hyprlock great
+
 - Go through https://wiki.hypr.land/Hypr-Ecosystem/
 
 - Look at neovim? Can it replace vim for me?
