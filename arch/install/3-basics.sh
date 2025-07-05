@@ -5,7 +5,8 @@ yay -S --noconfirm --needed \
   nautilus the_silver_searcher \
   sddm qt5-graphicaleffects qt5-quickcontrols2 sddm-sugar-dark \
   swayidle \
-  vim tig \
-  spotify teams-for-linux \
+  vim tig code \
+  postman-bin teams-for-linux slack-desktop bruno\
+  spotify 
 
   sudo systemctl enable sddm
