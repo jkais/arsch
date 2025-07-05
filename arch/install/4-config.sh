@@ -6,5 +6,7 @@ if [[ -n "${USER_EMAIL//[[:space:]]/}" ]]; then
   git config --global user.email "$USER_EMAIL"
 fi
 
-echo "WHERE IS THE PWD?"
-pwd
+# Copy all config files to .config
+SOURCE_DIR="~/.local/share/arsch/config"
+CONFIG_DIR="~/.config"
+cp -r "$SOURCE_DIR"/* "$CONFIG_DIR"
