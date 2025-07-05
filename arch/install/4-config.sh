@@ -14,4 +14,4 @@ cp -r "$SOURCE_DIR"/* "$CONFIG_DIR"
 # Copy all share files to /usr/share
 SOURCE_DIR="$HOME/.local/share/arsch/share"
 CONFIG_DIR="/usr/share"
-cp -r "$SOURCE_DIR"/* "$CONFIG_DIR"
+sudo cp -r "$SOURCE_DIR"/* "$CONFIG_DIR"
