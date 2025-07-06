@@ -3,10 +3,9 @@ yay -S --noconfirm --needed \
   curl unzip inetutils openssh \
   nautilus the_silver_searcher \
   sddm qt5-graphicaleffects qt5-quickcontrols2 sddm-sugar-dark \
-  swayidle \
   vim tig code \
   postman-bin teams-for-linux slack-desktop bruno-bin \
   fastfetch btop htop cowsay \
-  spotify 
+  spotify
 
 sudo systemctl enable sddm
