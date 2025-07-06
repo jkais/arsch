@@ -1,5 +1,7 @@
 yay -S --noconfirm --needed \
-  hyprland hyprlock hyprpaper mako loupe \
+  hyprland \
+  hyprlock hyprpaper hyprshot hypridle \
+  mako loupe \
   waybar wayland-protocols wl-clipboard \
-  wlroots wofi xdg-desktop-portal-hyprland hyprshot \
+  wlroots wofi xdg-desktop-portal-hyprland \
   > /dev/null
