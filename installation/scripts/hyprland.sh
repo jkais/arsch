@@ -5,6 +5,6 @@ yay -S --noconfirm --needed \
   ttf-source-han-sans-jp ttf-source-han-serif-jp \
   fontconfig hyprland hyprlock \
   waybar wayland-protocols wl-clipboard \
-  wlroots wofi xdg-desktop-portal-hyprland
+  wlroots wofi xdg-desktop-portal-hyprland hyprshot
 
 fc-cache -fv
