@@ -19,15 +19,21 @@
 - Resolution + Font-Size
 - Terminal
 - Secrets
+- Multi Clipboard
+-- hyprshot to use clipboard
 
 - Login sddm
 
+- configure mako
+
 - Make hyprlock great
-- Autolock doesn't work
+- Autolock switch to hypridle
 
 - Go through https://wiki.hypr.land/Hypr-Ecosystem/
 
 - Look at neovim? Can it replace vim for me?
+
+- Build WebApps script
 
 ### Waybar
 
@@ -35,13 +41,7 @@
 
 # Programme
 
-- VS Code
-
 Work
-- Teams
-- Slack
-- Postman
-- Bruno
 - Waydroid
 
 # Configs
