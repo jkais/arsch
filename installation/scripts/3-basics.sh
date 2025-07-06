@@ -6,6 +6,7 @@ yay -S --noconfirm --needed \
   vim tig code \
   postman-bin teams-for-linux slack-desktop bruno-bin \
   fastfetch btop htop cowsay \
-  spotify
+  spotify \
+  > /dev/null
 
-sudo systemctl enable sddm
+sudo systemctl enable sddm > /dev/null
