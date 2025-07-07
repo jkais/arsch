@@ -5,7 +5,7 @@ yay -S --noconfirm --needed \
   sddm qt5-graphicaleffects qt5-quickcontrols2 sddm-sugar-dark \
   brightnessctl \
   vim tig \
-  firefox vlc code \
+  firefox vlc ffmpeg code \
   postman-bin teams-for-linux slack-desktop bruno-bin \
   fastfetch btop htop cowsay \
   spotify \
