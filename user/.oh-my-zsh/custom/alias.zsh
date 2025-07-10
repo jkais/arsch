@@ -7,6 +7,7 @@ alias cat="bat"
 alias c="code ."
 
 alias cd="z"
+alias j="z"
 
 alias gp="git pull"
 alias gu="git pull --rebase"

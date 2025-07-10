@@ -5,10 +5,10 @@ yay -S --noconfirm --needed \
   nautilus the_silver_searcher \
   sddm qt5-graphicaleffects qt5-quickcontrols2 sddm-sugar-dark \
   brightnessctl \
-  vim tig asdf-vm \
+  vim neovim tig asdf-vm \
   firefox vlc ffmpeg code \
   postman-bin teams-for-linux slack-desktop bruno-bin \
-  fastfetch btop htop cowsay asciiquarium \
+  fastfetch btop htop cowsay asciiquarium sl \
   spotify \
   > /dev/null
 
