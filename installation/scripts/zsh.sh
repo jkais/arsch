@@ -1,4 +1,4 @@
-yay -S --noconfirm --needed blueberry > /dev/null
+yay -S --noconfirm --needed zsh > /dev/null
 
 # install oh my zsh
 export RUNZSH=no
