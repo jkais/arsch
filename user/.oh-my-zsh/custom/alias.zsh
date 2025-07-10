@@ -4,6 +4,10 @@ alias v="vim"
 
 alias cat="bat"
 
+alias c="code ."
+
+alias cd="z"
+
 alias gp="git pull"
 alias gu="git pull --rebase"
 alias gs="git status"

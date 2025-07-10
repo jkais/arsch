@@ -12,7 +12,7 @@ ENABLE_CORRECTION="true"
 
 HIST_STAMPS="dd.mm.yyyy"
 
-plugins=(git asdf encode64 fzf)
+plugins=(git asdf encode64 fzf qrcode)
 
 source $ZSH/oh-my-zsh.sh
 
