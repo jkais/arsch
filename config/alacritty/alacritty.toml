@@ -15,7 +15,7 @@ program = "/bin/zsh"
 args = ["-l"]
 
 [cursor]
-style = { shape = "Underline", blinking = "Never" }
+style = { shape = "Block", blinking = "Never" }
 
 [general]
 import = [
