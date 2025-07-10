@@ -16,6 +16,8 @@ xdg-settings set default-web-browser firefox.desktop
 
 /usr/bin/asdf plugin add nodejs
 /usr/bin/asdf install nodejs latest
+/usr/bin/asdf set -u nodejs latest
 
 /usr/bin/asdf plugin add ruby
 /usr/bin/asdf install ruby latest
+/usr/bin/asdf set -u ruby latest
