@@ -10,9 +10,9 @@ dynamic_padding = true
 
 decorations = "None"
 
--[shell]
--program = "/bin/zsh"
--args = ["-l"]
+[terminal.shell]
+program = "/bin/zsh"
+args = ["-l"]
 
 [cursor]
 style = { shape = "Underline", blinking = "Never" }
@@ -21,3 +21,5 @@ style = { shape = "Underline", blinking = "Never" }
 import = [
     "~/.config/alacritty/themes/kanagawa_wave.toml"
 ]
+
+[terminal]
