@@ -5,4 +5,8 @@ if [ ! -d "$HOME/.oh-my-zsh" ]; then
   RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
-source "$HOME/.zshrc"
+if [ -n "$ZSH_VERSION" ]; then
+  if [ -f "$HOME/.zshrc" ]; then
+    source "$HOME/.zshrc"
+  fi
+fi
