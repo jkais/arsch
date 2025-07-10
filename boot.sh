@@ -1,5 +1,6 @@
-echo "Installing Arsch..."
+echo "Installing..."
 
+sudo pacman -Syu
 sudo pacman -Sy --noconfirm --needed git > /dev/null
 
 rm -rf ~/.local/share/arsch/
