@@ -35,6 +35,8 @@
 
 - Build WebApps script
 
+- Build an Update script (pacman -Syu, maybe also running Arsch?)
+
 ### Waybar
 
 # Shortcuts
