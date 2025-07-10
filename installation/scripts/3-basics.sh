@@ -1,6 +1,7 @@
 yay -S --noconfirm --needed \
   alacritty man less whois \
   curl unzip inetutils openssh jq \
+  zoxide \
   nautilus the_silver_searcher \
   sddm qt5-graphicaleffects qt5-quickcontrols2 sddm-sugar-dark \
   brightnessctl \
