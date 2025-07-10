@@ -1,6 +1,6 @@
 # Copy all config files to .config
-SOURCE_DIR="$HOME/.local/share/arsch/config"
-CONFIG_DIR="$HOME/.config"
+SOURCE_DIR="$HOME/.local/share/arsch/user"
+CONFIG_DIR="$HOME/"
 cp -r "$SOURCE_DIR"/* "$CONFIG_DIR" > /dev/null
 
 # Copy all root files to /
