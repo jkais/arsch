@@ -13,3 +13,5 @@ yay -S --noconfirm --needed \
 
 sudo systemctl enable sddm > /dev/null
 xdg-settings set default-web-browser firefox.desktop
+
+/usr/bin/asdf plugin add nodejs
