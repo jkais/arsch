@@ -7,7 +7,7 @@ yay -S --noconfirm --needed \
   vim tig \
   firefox vlc ffmpeg code \
   postman-bin teams-for-linux slack-desktop bruno-bin \
-  fastfetch btop htop cowsay \
+  fastfetch btop htop cowsay asciiquarium \
   spotify \
   > /dev/null
 
