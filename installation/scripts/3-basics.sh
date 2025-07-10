@@ -12,3 +12,4 @@ yay -S --noconfirm --needed \
   > /dev/null
 
 sudo systemctl enable sddm > /dev/null
+xdg-settings set default-web-browser firefox.desktop
