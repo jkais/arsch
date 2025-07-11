@@ -9,7 +9,7 @@ alias c="code ."
 alias cd="z"
 alias j="z"
 
-alias gp="git pull"
+alias gp="git push"
 alias gu="git pull --rebase"
 alias gs="git status"
 alias gd="git diff"
