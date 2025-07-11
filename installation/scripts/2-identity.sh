@@ -1,5 +1,5 @@
 # Need gum to query for input
-yay -S --noconfirm --needed gum
+yay -S --noconfirm --needed gum > /dev/null
 
 # Configure identification
 echo -e "\nEnter identification for Git (leave empty when already done):"
