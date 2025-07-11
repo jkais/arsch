@@ -1,14 +1,14 @@
 yay -S --noconfirm --needed \
   alacritty man less whois \
   curl unzip inetutils openssh jq \
-  zoxide bat fzf \
-  nautilus the_silver_searcher \
+  zoxide bat fzf the_silver_searcher \
   sddm qt5-graphicaleffects qt5-quickcontrols2 sddm-sugar-dark \
   brightnessctl \
   vim neovim tig asdf-vm \
-  firefox vlc ffmpeg code \
+  nautilus firefox vlc ffmpeg code \
   postman-bin teams-for-linux slack-desktop bruno-bin \
-  fastfetch btop htop cowsay asciiquarium sl \
+  btop htop \
+  fastfetch cowsay asciiquarium sl cbonsai \
   spotify \
   > /dev/null
 
