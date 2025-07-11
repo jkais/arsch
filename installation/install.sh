@@ -6,8 +6,9 @@ trap 'echo "Installation failed!"' ERR
 
 # Install all scripts
 #
-for f in ~/.local/share/arsch/installation/scripts/*.sh; do source "$f"; done
-
+{
+  for f in ~/.local/share/arsch/installation/scripts/*.sh; do source "$f"; done
+} > /dev/null
 
 cat << 'EOF'
 
