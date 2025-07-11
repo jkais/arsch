@@ -1,8 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# try "random"?
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Auto Updater
 zstyle ':omz:update' mode reminder  # just remind me to update when it's time

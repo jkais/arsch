@@ -1,14 +1,13 @@
-
 [window]
-
 opacity = 0.9
-
 padding.x = 10
 padding.y = 10
 
 dynamic_padding = true
-
 decorations = "None"
+
+[font.normal]
+family = "MesloLGS NF"
 
 [terminal.shell]
 program = "/bin/zsh"
@@ -21,5 +20,3 @@ style = { shape = "Block", blinking = "Never" }
 import = [
     "~/.config/alacritty/themes/kanagawa_wave.toml"
 ]
-
-[terminal]
