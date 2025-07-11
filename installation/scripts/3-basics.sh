@@ -4,7 +4,7 @@ yay -S --noconfirm --needed \
   zoxide bat fzf the_silver_searcher \
   sddm qt5-graphicaleffects qt5-quickcontrols2 sddm-sugar-dark \
   brightnessctl \
-  vim neovim tig asdf-vm \
+  vim neovim luarocks tig asdf-vm \
   nautilus firefox vlc ffmpeg code \
   postman-bin teams-for-linux slack-desktop bruno-bin \
   btop htop \
