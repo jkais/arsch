@@ -1,0 +1,11 @@
+window#waybar {
+  color: #2E4036;
+  background-color: #557362;
+  border-bottom: 1px solid #2E4036;
+}
+
+#hyprland-workspaces button.workspace:hover {
+  background-color: rgba(100, 150, 255, 0.4);
+}
+
+
