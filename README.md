@@ -29,6 +29,7 @@
 - Make hyprlock great
 - hypridle: Remember brightness and reset
 - hyprpicker
+- Booting with Plymouth
 
 - Go through https://wiki.hypr.land/Hypr-Ecosystem/
 
