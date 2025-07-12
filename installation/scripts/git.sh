@@ -1,7 +1,7 @@
 # Need gum to query for input
-yay -S --noconfirm --needed gum
+yay -S --noconfirm --needed 
 
-# Configure git identification
+# Set git identity
 if [[ -z "$(git config --global user.name)" ]]; then
   USER_NAME=$(gum input --placeholder "Enter full name" --prompt "(git) Name: ")
   if [[ -n "${USER_NAME//[[:space:]]/}" ]]; then
@@ -17,3 +17,6 @@ if [[ -z "$(git config --global user.email)" ]]; then
 else
   echo "Git user.email is already set to: $(git config --global user.email)"
 fi
+
+git config --global alias.co checkout
+git config --global pull.rebase true
