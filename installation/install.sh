@@ -8,7 +8,7 @@ trap 'echo "Installation failed!"' ERR
 #
 {
   for f in ~/.local/share/arsch/installation/scripts/*.sh; do source "$f"; done
-} # > /dev/null
+} > /dev/null
 
 cat << 'EOF'
 
@@ -24,5 +24,3 @@ Y8a     a8P  Y8a.    .a8P   Y8a.    .a8P  Y8a.    .a8P  88          Y8a     a8P 
                                       HAVE FUN!
 
 EOF
-
-gum confirm "Reboot to apply all settings? (Probably not needed after updating)" && reboot
