@@ -14,6 +14,7 @@
     "modules-right": [
       "pulseaudio",
       "network",
+      "bluetooth",
       "power-profiles-daemon",
       "cpu",
       "backlight",
@@ -112,8 +113,8 @@
       "menu": "on-click",
       "menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
       "menu-actions": {
-        "shutdown": "shutdown",
-        "reboot": "reboot",
+        "shutdown": "shutdown now",
+        "reboot": "reboot now",
         "suspend": "systemctl suspend",
         "hibernate": "systemctl hibernate"
       }
