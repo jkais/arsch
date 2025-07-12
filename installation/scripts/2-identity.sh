@@ -2,14 +2,20 @@
 yay -S --noconfirm --needed gum
 
 # Configure identification
-echo -e "\nEnter identification for Git (leave empty when already done):"
-export USER_NAME=$(gum input --placeholder "Enter full name" --prompt "Name: ")
-export USER_EMAIL=$(gum input --placeholder "Enter email address" --prompt "Email: ")
+CURRENT_NAME=$(git config --global user.name)
+CURRENT_EMAIL=$(git config --global user.email)
 
-if [[ -n "${USER_NAME//[[:space:]]/}" ]]; then
-  git config --global user.name "$USER_NAME"
+# Ask only if not already set
+if [[ -z "${CURRENT_NAME//[[:space:]]/}" ]]; then
+  export USER_NAME=$(gum input --placeholder "Enter full name" --prompt "Name: ")
+  if [[ -n "${USER_NAME//[[:space:]]/}" ]]; then
+    git config --global user.name "$USER_NAME"
+  fi
 fi
 
-if [[ -n "${USER_EMAIL//[[:space:]]/}" ]]; then
-  git config --global user.email "$USER_EMAIL"
+if [[ -z "${CURRENT_EMAIL//[[:space:]]/}" ]]; then
+  export USER_EMAIL=$(gum input --placeholder "Enter email address" --prompt "Email: ")
+  if [[ -n "${USER_EMAIL//[[:space:]]/}" ]]; then
+    git config --global user.email "$USER_EMAIL"
+  fi
 fi
