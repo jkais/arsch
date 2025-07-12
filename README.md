@@ -27,7 +27,8 @@
 - configure mako
 
 - Make hyprlock great
-- Autolock switch to hypridle
+- hypridle: Remember brightness and reset
+- hyprpicker
 
 - Go through https://wiki.hypr.land/Hypr-Ecosystem/
 

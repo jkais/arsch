@@ -9,4 +9,3 @@
 /usr/bin/asdf plugin add ruby
 /usr/bin/asdf install ruby latest
 /usr/bin/asdf set -u ruby latest
-
