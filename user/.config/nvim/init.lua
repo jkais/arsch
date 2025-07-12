@@ -6,7 +6,7 @@ vim.opt.smartindent = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 
-vim.g.mapleader = ","
+vim.g.mapleader = " "
 
 require("config.lazy")
 
