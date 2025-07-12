@@ -1,13 +1,10 @@
-alias t="tig"
-
-alias v="vim"
-
 alias cat="bat"
-
-alias c="code ."
-
 alias cd="z"
 alias j="z"
+
+alias t="tig"
+alias v="nvim"
+alias c="code ."
 
 alias gp="git push"
 alias gu="git pull --rebase"
