@@ -10,6 +10,7 @@
     ],
     "modules-center": [
       "clock",
+      "idle_inhibitor"
     ],
     "modules-right": [
       "pulseaudio",
@@ -95,11 +96,18 @@
         "󰤨"
       ]
     },
+    "idle_inhibitor": {
+      "format": "{icon}",
+      "format-icons": {
+        "activated": "",
+        "deactivated": ""
+      }
+    },
     "pulseaudio": {
       "format": "{icon} {format_source}",
       "format-bluetooth": "{volume}% {icon} {format_source}",
-      "format-bluetooth-muted": " {icon} {format_source}",
-      "format-muted": " {format_source}",
+      "format-bluetooth-muted": "󰝟 {icon} {format_source}",
+      "format-muted": "󰝟 {format_source}",
       "format-source": "",
       "format-source-muted": "",
       "format-icons": {
