@@ -43,6 +43,10 @@
 
 - Improve WebApps script
 
+- Waybar
+  - Make cava run
+
+
 - Themes
   - Mokuhankan Collection?
 
