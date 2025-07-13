@@ -45,6 +45,7 @@
 
 - Waybar
   - Make cava run
+  - Weather script?
 
 
 - Themes
