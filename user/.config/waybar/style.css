@@ -4,14 +4,13 @@ window#waybar {
   border-bottom: 1px solid #2E4036;
 }
 
-#power-profiles-daemon {
-  font-size: 18px;
-}
-
-#backlight, #cpu {
+#cpu, #network {
   font-size: 20px;
 }
 
+#backlight, #power-profiles-daemon {
+  font-size: 18px;
+}
 
 #workspaces {
   font-weight: bold;

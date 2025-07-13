@@ -39,14 +39,9 @@
       },
     },
     "backlight": {
-      "format": "{icon}",
-      "format-icons": [
-        "󰃞",  // low
-        "󰃟",  // medium
-        "󰃠"   // high
-      ],
+      "format": "󰆖",
       "tooltip": true,
-      "tooltip-format": "Brightness: {percent}%"
+      "tooltip-format": "{percent}%"
     },
     "battery": {
       "format": "{capacity}% {icon}",
@@ -88,13 +83,18 @@
       "on-click": "alacritty -e btop"
     },
     "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{essid} {signalStrength}%",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+      "format-wifi": "{icon}",
+      "format-ethernet": "{ipaddr}/{cidr} ",
+      "tooltip-format": "{essid} - {signalStrength}%",
+      "format-disconnected": "⚠",
+      "format-alt": "{ifname}: {ipaddr}",
+      "format-icons": [
+        "󰤯",
+        "󰤟",
+        "󰤢",
+        "󰤥",
+        "󰤨"
+      ]
     },
     "pulseaudio": {
       "format": "{icon} {format_source}",
