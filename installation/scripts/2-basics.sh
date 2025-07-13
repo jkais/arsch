@@ -3,6 +3,7 @@ yay -S --noconfirm --needed \
   curl unzip inetutils openssh jq \
   zoxide bat fzf the_silver_searcher gum \
   sddm qt5-graphicaleffects qt5-quickcontrols2 sddm-sugar-dark \
+  playerctl pamixer pavucontrol \
   brightnessctl power-profiles-daemon \
   vim neovim luarocks tig asdf-vm \
   nautilus firefox vlc ffmpeg code \
