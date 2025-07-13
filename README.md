@@ -11,6 +11,8 @@
 
 # Hyprland
 
+- hypr-zoom
+
 ## Hasui Colors
 
 - Dark Red: #BF414C
@@ -36,6 +38,9 @@
 - Go through https://wiki.hypr.land/Hypr-Ecosystem/
 
 - Improve WebApps script
+
+- Themes
+  - Mokuhankan Collection?
 
 # Shortcuts
 
