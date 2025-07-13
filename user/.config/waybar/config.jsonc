@@ -3,7 +3,7 @@
   "position": "top", // Waybar position (top|bottom|left|right)
     //"height": 30, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
-    "spacing": 4, // Gaps between modules (4px)
+    "spacing": 10, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
       "hyprland/workspaces",
@@ -39,45 +39,48 @@
         "active": "󱓻"
       },
     },
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{percent}% ",
+    },
+    "battery": {
+      "format": "{capacity}% {icon}",
+      "format-discharging": "{icon}",
+      "format-charging":    "{icon}",
+      "format-plugged":     "",
+      "format-icons": {
+        "charging": [
+          "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"
+        ],
+        "default": [
+          "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
+        ]
+      },
+      "format-full": "󰂅",
+      "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
+      "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
+      "interval": 5,
+      "states": {
+        "warning": 20,
+        "critical": 10
+      }
+    },
+    "bluetooth": {
+      "format": "",
+      "format-disabled": "󰂲",
+      "format-connected": "",
+      "tooltip-format": "Devices connected: {num_connections}",
+      "on-click": "GTK_THEME=Adwaita-dark blueberry"
+    },
     "clock": {
       "format": "{:%H:%M}",
       "format-alt": "{:%d.%m.%Y KW%V}",
       "tooltip": false
     },
     "cpu": {
-      "format": "{usage}% ",
-      "on-click": "alacritty -e btop",
-      "tooltip": false
-    },
-    "backlight": {
-        // "device": "acpi_video1",
-        "format": "{percent}% ",
-    },
-    "battery": {
-      "states": {
-            // "good": 95,
-            "warning": 30,
-            "critical": 15
-      },
-      "format": "{capacity}% {icon}",
-      "format-full": "{capacity}% {icon}",
-      "format-charging": "{capacity}% ",
-      "format-plugged": "{capacity}% ",
-      "format-alt": "{time} {icon}",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
-    },
-    "power-profiles-daemon": {
-      "format": "{icon}",
-      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
-      "tooltip": true,
-      "format-icons": {
-        "default": "",
-        "performance": "",
-        "balanced": "",
-        "power-saver": ""
-      }
+      "interval": 5,
+      "format": "󰍛",
+      "on-click": "alacritty -e btop"
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
