@@ -3,7 +3,7 @@
   "position": "top", // Waybar position (top|bottom|left|right)
     //"height": 30, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
-    "spacing": 10, // Gaps between modules (4px)
+    "spacing": 20, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
       "hyprland/workspaces",
@@ -15,8 +15,8 @@
       "pulseaudio",
       "network",
       "bluetooth",
-      "power-profiles-daemon",
       "cpu",
+      "power-profiles-daemon",
       "backlight",
       "battery",
       "tray",
@@ -37,6 +37,16 @@
         "9": "9",
         "10": "10",
       },
+    },
+    "backlight": {
+      "format": "{icon}",
+      "format-icons": [
+        "󰃞",  // low
+        "󰃟",  // medium
+        "󰃠"   // high
+      ],
+      "tooltip": true,
+      "tooltip-format": "Brightness: {percent}%"
     },
     "battery": {
       "format": "{capacity}% {icon}",
@@ -65,7 +75,7 @@
       "format-disabled": "󰂲",
       "format-connected": "",
       "tooltip-format": "Devices connected: {num_connections}",
-      "on-click": "GTK_THEME=Adwaita-dark blueberry"
+      "on-click": "blueberry"
     },
     "clock": {
       "format": "{:%H:%M}",
@@ -79,31 +89,30 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "  {signalStrength}%",
+        "format-wifi": "",
         "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
+        "tooltip-format": "{essid} {signalStrength}%",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
-        "format-icons": {
-          "headphone": "",
-          "hands-free": "",
-          "headset": "",
-          "phone": "",
-          "portable": "",
-          "car": "",
-          "default": ["", "", ""]
-        },
-        "on-click": "pavucontrol"
+      "format": "{icon} {format_source}",
+      "format-bluetooth": "{volume}% {icon} {format_source}",
+      "format-bluetooth-muted": " {icon} {format_source}",
+      "format-muted": " {format_source}",
+      "format-source": "",
+      "format-source-muted": "",
+      "format-icons": {
+        "headphone": "",
+        "hands-free": "",
+        "headset": "",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["", "", ""]
+      },
+      "on-click": "pavucontrol"
     },
     "custom/power": {
       "format" : "⏻ ",
@@ -116,5 +125,15 @@
         "suspend": "systemctl suspend",
         "hibernate": "systemctl hibernate"
       }
+    },
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "format-icons": {
+        "performance": "󰡴",
+        "balanced": "󰊚",
+        "power-saver": "󰡳"
+      },
+      "tooltip": true,
+      "tooltip-format": "Power Profile: {profile}"
     }
 }

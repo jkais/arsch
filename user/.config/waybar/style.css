@@ -4,6 +4,15 @@ window#waybar {
   border-bottom: 1px solid #2E4036;
 }
 
+#power-profiles-daemon {
+  font-size: 18px;
+}
+
+#backlight, #cpu {
+  font-size: 20px;
+}
+
+
 #workspaces {
   font-weight: bold;
   text-shadow: 0px 0px 3px black;
