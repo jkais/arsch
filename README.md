@@ -21,7 +21,11 @@
 - Light Green: #557362
 - Beige: #BFAC95
 
-## Todo
+# Debugging
+
+- ```GTK_DEBUG=interactive waybar```
+
+# Todo
 
 - Monitor-Setting
 - Multi-Monitor Setup
