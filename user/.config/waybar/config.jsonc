@@ -85,9 +85,8 @@
     "network": {
       "format-wifi": "{icon}",
       "format-ethernet": "{ipaddr}/{cidr} ",
-      "tooltip-format": "{essid} - {signalStrength}%",
+      "tooltip-format": "{essid} - {signalStrength}%\n{ifname}: {ipaddr}",
       "format-disconnected": "⚠",
-      "format-alt": "{ifname}: {ipaddr}",
       "format-icons": [
         "󰤯",
         "󰤟",
