@@ -1,5 +1,6 @@
 yay -S --noconfirm --needed \
   alacritty man less whois \
+  plymouth \
   curl unzip inetutils openssh jq \
   zoxide bat fzf the_silver_searcher gum \
   sddm qt5-graphicaleffects qt5-quickcontrols2 sddm-sugar-dark \
