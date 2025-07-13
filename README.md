@@ -13,11 +13,11 @@
 
 ## Hasui Colors
 
-Dark Red: #BF414C
-Light Red: #D98F89
-Dark Green: #2E4036
-Light Green: #557362
-Beige: #BFAC95
+- Dark Red: #BF414C
+- Light Red: #D98F89
+- Dark Green: #2E4036
+- Light Green: #557362
+- Beige: #BFAC95
 
 ## Todo
 
