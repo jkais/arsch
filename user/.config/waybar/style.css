@@ -6,10 +6,12 @@ window#waybar {
 
 #workspaces {
   font-weight: bold;
+  text-shadow: 0px 0px 3px black;
 }
 
 #workspaces button:hover {
   border: 0 solid #BF414C;
+  background: transparent;
 }
 
 #workspaces button.active {
