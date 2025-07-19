@@ -9,3 +9,7 @@
 /usr/bin/asdf plugin add ruby
 /usr/bin/asdf install ruby latest
 /usr/bin/asdf set -u ruby latest
+
+/usr/bin/asdf plugin add python
+/usr/bin/asdf install python latest
+/usr/bin/asdf set -u python latest
