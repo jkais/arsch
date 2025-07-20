@@ -10,7 +10,6 @@
     ],
     "modules-center": [
       "clock",
-      "idle_inhibitor"
     ],
     "modules-right": [
       "pulseaudio",
@@ -21,6 +20,7 @@
       "backlight",
       "battery",
       "tray",
+      "idle_inhibitor",
       "custom/power"
     ],
     "hyprland/workspaces": {
@@ -99,8 +99,8 @@
     "idle_inhibitor": {
       "format": "{icon}",
       "format-icons": {
-        "activated": "",
-        "deactivated": ""
+        "activated": "󰒳",
+        "deactivated": "󰒲"
       }
     },
     "pulseaudio": {
