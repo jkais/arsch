@@ -11,6 +11,7 @@ yay -S --noconfirm --needed \
   postman-bin teams-for-linux slack-desktop bruno-bin \
   btop htop \
   fastfetch cowsay asciiquarium sl cbonsai \
+  openconnect \
   spotify \
   > /dev/null
 
