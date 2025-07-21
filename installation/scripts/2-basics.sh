@@ -1,5 +1,6 @@
 yay -S --noconfirm --needed \
   alacritty man less whois \
+  wl-clipboard cliphist \
   okular evince \
   plymouth \
   curl unzip inetutils openssh jq \
