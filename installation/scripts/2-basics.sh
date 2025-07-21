@@ -1,6 +1,6 @@
 yay -S --noconfirm --needed \
   alacritty man less whois \
-  okular \
+  okular evince \
   plymouth \
   curl unzip inetutils openssh jq \
   zoxide bat fzf the_silver_searcher gum \
@@ -8,7 +8,9 @@ yay -S --noconfirm --needed \
   playerctl pamixer pavucontrol \
   brightnessctl power-profiles-daemon \
   vim neovim luarocks tig asdf-vm \
-  nautilus firefox vlc ffmpeg code \
+  nautilus firefox \
+  vlc ffmpeg ffmpegthumbnailer gnome-video-thumbnailer \
+  code \
   postman-bin teams-for-linux slack-desktop bruno-bin \
   btop htop \
   fastfetch cowsay asciiquarium sl cbonsai \
