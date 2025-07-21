@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Slack 
+Comment=Slack for Linux
+Exec=slack --ozone-platform=wayland --force-device-scale-factor=1.6
+Icon=slack
+Type=Application
+Categories=Network;InstantMessaging;
+StartupNotify=true
+
