@@ -1,7 +1,7 @@
 yay -S --noconfirm --needed \
   alacritty man less whois \
   wl-clipboard cliphist \
-  okular evince \
+  okular evince obsidian-bin \
   plymouth \
   curl unzip inetutils openssh jq \
   zoxide bat fzf the_silver_searcher gum \
