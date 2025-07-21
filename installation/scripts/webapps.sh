@@ -36,3 +36,5 @@ EOF
 web2app "Discord" https://discord.com/channels/@me https://w7.pngwing.com/pngs/1023/637/png-transparent-discord-hd-logo-thumbnail.png
 web2app "HEY" https://app.hey.com https://www.hey.com/assets/images/general/hey.png
 web2app "WhatsApp" https://web.whatsapp.com/ https://medi-suedwest.de/wp-content/uploads/2018/10/whatsapp-official-logo-png-download.png
+web2app "ChatGPT" https://chatgpt.com/ https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/chatgpt.png
+web2app "YouTube" https://youtube.com/ https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/youtube.png
