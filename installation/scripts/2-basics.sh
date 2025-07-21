@@ -1,6 +1,6 @@
 yay -S --noconfirm --needed \
   alacritty man less whois \
-  ocular \
+  okular \
   plymouth \
   curl unzip inetutils openssh jq \
   zoxide bat fzf the_silver_searcher gum \
