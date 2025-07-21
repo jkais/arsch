@@ -9,7 +9,7 @@ yay -S --noconfirm --needed \
   playerctl pamixer pavucontrol \
   brightnessctl power-profiles-daemon \
   vim neovim luarocks tig asdf-vm \
-  nautilus firefox \
+  nautilus firefox pinta \
   vlc ffmpeg ffmpegthumbnailer gnome-video-thumbnailer \
   code \
   postman-bin teams-for-linux slack-desktop bruno-bin \
