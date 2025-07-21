@@ -20,8 +20,8 @@
       "backlight",
       "battery",
       "tray",
-      "idle_inhibitor",
       "custom/clipboard",
+      "idle_inhibitor",
       "custom/power"
     ],
     "hyprland/workspaces": {
@@ -85,11 +85,9 @@
       "on-click": "alacritty -e btop"
     },
     "custom/clipboard": {
-      "format": "📋 {}",
-      "exec": "wl-paste --no-newline | cut -c1-30",
+      "format": "󰅍",
       "on-click": "~/.config/waybar/scripts/clipboard.sh",
-      "interval": 2,
-      "tooltip": true
+      "tooltip": false
     },
     "network": {
       "format-wifi": "{icon}",
