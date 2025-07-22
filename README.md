@@ -5,7 +5,33 @@
   - station wlan0 scan
   - station wlan0 connect <tab>
 - Use archinstall
-  - Options TBD
+  - Locales
+    - Keyboard layout: de
+    - Locale language: de_DE.UTF-8
+  - Mirrors & Repositories+
+    - Select regions -> Germany
+  - Disk configuration
+    - Partitioning
+      - Use best-effort
+      - Mark the drive
+      - btrfs
+      - subvolumes with default...? Yes
+      - Use compression
+      - Disk encryption
+        - Encryption type > LUKS
+        - Encryption password: Set it & don't forget it
+        - Partitions > Mark the one
+  - Root password: Set it
+  - User account
+    - Add a user
+      - name (lowercase), password
+      - Should "user" be a superuser (sudo)? > Yes
+    - Confirm and exit
+  - Audio > pipewire
+  - Network configuration > Copy ISO...
+  - Additional packages > wget
+  - Timezone: /Berlin
+  - Install
 
 ```wget -qO- https://arsch.n1h0n.de | bash```
 
