@@ -10,6 +10,7 @@ yay -S --noconfirm --needed \
   brightnessctl power-profiles-daemon \
   vim neovim luarocks tig asdf-vm \
   nautilus firefox pinta \
+  chromium \
   vlc ffmpeg ffmpegthumbnailer gnome-video-thumbnailer \
   code \
   postman-bin teams-for-linux slack-desktop bruno-bin \
