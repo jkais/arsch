@@ -3,7 +3,6 @@ yay -S --noconfirm --needed \
   ttf-font-awesome ttf-material-design-icons \
   noto-fonts-cjk adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts \
   ttf-meslo-nerd-font-powerlevel10k \
-  ttf-mononoki-nerd \
   fontconfig \
   > /dev/null
 
