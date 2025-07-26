@@ -28,13 +28,13 @@ else
 fi
 
 # WireGuard prompt segment
-function p10k_wireguard() {
+function prompt_wireguard() {
   local wg_ifaces
   wg_ifaces=$(wg show interfaces 2>/dev/null)
   [[ -z "$wg_ifaces" ]] && return
 
-  local icon="🔒"
-  p10k segment -i "$icon" -t "$wg_ifaces" -f green
+  local icon=""
+  p10k segment -t "$icon $wg_ifaces" -f green
 }
 
 eval "$(zoxide init zsh)"
