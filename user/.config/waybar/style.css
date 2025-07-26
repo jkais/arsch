@@ -1,27 +1,32 @@
+* {
+  font-family: "DejaVuSansMono Nerd Font", monospace;
+  font-size: 16px;
+  padding: 1px 4px;
+}
+
 window#waybar {
-  color: #2E4036;
-  background-color: rgba(85,115,98, 0.8);
+  color: #000;
+  background-color: rgba(85,115,98, 0.9);
   border-bottom: 1px solid #2E4036;
-}
-
-#cpu, #network {
-  font-size: 20px;
-}
-
-#backlight, #power-profiles-daemon {
-  font-size: 18px;
 }
 
 #workspaces {
   font-weight: bold;
-  text-shadow: 0px 0px 3px black;
-}
-
-#workspaces button:hover {
-  border: 0 solid #BF414C;
-  background: transparent;
 }
 
 #workspaces button.active {
   color: #BF414C;
 }
+
+#workspaces button,
+#workspaces button:hover,
+#workspaces button:active {
+  padding: 0 4px;
+  margin: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+
