@@ -1,8 +1,10 @@
 [Desktop Entry]
-Name=Neovim (Terminal)
-Exec=/usr/local/bin/nvim-launcher %F
-Terminal=false
 Type=Application
+Name=Neovim (Terminal)
+Comment=Neovim
+GenericName=Neovim
+Exec=/usr/local/bin/nvim-launcher %F
+Icon=nvim
 MimeType=text/plain;
 Categories=Utility;TextEditor;
-Icon=utilities-terminal
+Terminal=false
