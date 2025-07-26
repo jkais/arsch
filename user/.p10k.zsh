@@ -65,6 +65,7 @@
     command_execution_time    # previous command duration
     virtualenv                # python virtual environment
     context                   # user@host
+    wireguard                 # wireguard
     time                      # current time
     # =========================[ Line #2 ]=========================
     newline                   # \n
