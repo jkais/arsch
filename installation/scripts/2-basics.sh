@@ -3,7 +3,7 @@ yay -S --noconfirm --needed \
   wl-clipboard cliphist \
   okular evince \
   plymouth \
-  curl unzip inetutils openssh jq \
+  curl unzip inetutils openssh jq bind \
   zoxide bat fzf the_silver_searcher gum \
   sddm qt5-graphicaleffects qt5-quickcontrols2 sddm-sugar-dark \
   playerctl pamixer pavucontrol \
@@ -16,7 +16,7 @@ yay -S --noconfirm --needed \
   postman-bin teams-for-linux slack-desktop bruno-bin \
   btop htop \
   fastfetch cowsay asciiquarium sl cbonsai \
-  openconnect \
+  openconnect wireguard-tools \
   spotify \
   > /dev/null
 
