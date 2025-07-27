@@ -47,6 +47,23 @@
 - Light Green: #557362
 - Beige: #BFAC95
 
+## Urban Night
+
+- #1e1e2e
+- #cdd6f4
+- #89b4fa
+- #f38ba8
+- #fab387
+- #a6e3a1
+- #313244
+
+## Tokyo Tower Night
+
+- Orange: #yiwE95F2C
+- Night: #121E3F
+- Violet: #6D4F8D
+- Yellow: #DF9F49
+
 # Debugging
 
 - ```GTK_DEBUG=interactive waybar```
