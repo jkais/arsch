@@ -13,6 +13,7 @@ yay -S --noconfirm --needed \
   chromium \
   vlc ffmpeg ffmpegthumbnailer gnome-video-thumbnailer \
   code \
+  git-crypt \
   postman-bin teams-for-linux slack-desktop bruno-bin \
   btop htop \
   fastfetch cowsay asciiquarium sl cbonsai \
