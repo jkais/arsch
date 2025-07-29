@@ -90,6 +90,9 @@
   - Make cava run
   - Weather script?
 
+- Pacman
+  - ILoveCandy in pacman.conf sedden
+
 
 - Themes
   - Mokuhankan Collection?
