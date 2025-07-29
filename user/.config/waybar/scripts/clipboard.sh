@@ -1,2 +1,2 @@
 #!/bin/bash
-cliphist list | wofi --show dmenu | cliphist decode | wl-copy
+cliphist list | wofi --dmenu --prompt Clipboard | cliphist decode | wl-copy
