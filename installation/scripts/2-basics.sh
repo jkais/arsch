@@ -10,7 +10,7 @@ yay -S --noconfirm --needed \
   brightnessctl power-profiles-daemon \
   vim neovim luarocks tig asdf-vm \
   nautilus firefox pinta \
-  chromium \
+  chromium libreoffice-fresh \
   vlc ffmpeg ffmpegthumbnailer gnome-video-thumbnailer \
   code \
   git-crypt \
