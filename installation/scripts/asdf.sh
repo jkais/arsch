@@ -17,3 +17,5 @@
 # Install LSPs for Neovim
 $HOME/.asdf/shims/npm install -g typescript typescript-language-server
 $HOME/.asdf/shims/gem install solargraph
+$HOME/.asdf/shims/go install golang.org/x/tools/gopls@latest
+
