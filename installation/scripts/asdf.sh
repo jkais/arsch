@@ -13,3 +13,7 @@
 /usr/bin/asdf plugin add python
 /usr/bin/asdf install python latest
 /usr/bin/asdf set -u python latest
+
+# Install LSPs for Neovim
+$HOME/.asdf/shims/npm install -g typescript typescript-language-server
+$HOME/.asdf/shims/gem install solargraph
