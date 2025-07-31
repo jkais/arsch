@@ -1,8 +1,13 @@
 # Exit immediately if a command exits with a non-zero status
 set -e
 
-# Give people a chance to retry running the installation
-trap 'echo "Installation failed!"' ERR
+error() {
+   local sourcefile=$1
+   local lineno=$2
+   # ...logic for reporting an error at line $lineno
+   #    of file $sourcefile goes here...
+}
+trap 'error "${BASH_SOURCE}" "${LINENO}"' ERR
 
 # Install all scripts
 #
