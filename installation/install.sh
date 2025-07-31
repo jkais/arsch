@@ -1,13 +1,7 @@
 # Exit immediately if a command exits with a non-zero status
 set -e
 
-error() {
-   local sourcefile=$1
-   local lineno=$2
-   # ...logic for reporting an error at line $lineno
-   #    of file $sourcefile goes here...
-}
-trap 'error "${BASH_SOURCE}" "${LINENO}"' ERR
+trap "oh, no! error! :("
 
 # Install all scripts
 #
