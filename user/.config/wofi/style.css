@@ -1,28 +1,54 @@
 window {
-  margin: 0px;
-  border: 2px solid #5e81ac;
-  background-color: #2e3440;
-  font-family: "Noto Sans", "Nerd Font Mono", sans-serif;
-  color: #eceff4;
+  background-color: #1a1b26;
+  border-radius: 10px;
+  border: 1px solid #7aa2f7;
+  font-family: DejaVuSansMono, monospace;
+  font-size: 1.1em;            /* Etwas größer */
+  letter-spacing: 0.5px;       /* Mehr Abstand zwischen Buchstaben */
 }
 
 #input {
-  margin: 10px;
+  background-color: #24283b;
+  color: #c0caf5;
+  border-radius: 5px;
   border: none;
-  background-color: #3b4252;
-  color: #eceff4;
-  padding: 10px;
-  font-size: 16px;
+  margin: 12px 16px 0 16px;    /* Mehr Abstand rundherum */
+  padding: 8px 12px;           /* Luftigeres Eingabefeld */
+  font-size: 1em;
 }
 
 #entry {
-  padding: 10px;
-  margin: 2px 10px;
   background-color: transparent;
-  color: #d8dee9;
+  color: #c0caf5;
+  border-radius: 5px;
+  margin: 6px 16px;            /* Mehr Abstand zwischen Einträgen */
+  padding: 6px 12px;           /* Luftigerer Innenabstand */
+  font-size: 1.05em;
+
+  display: flex;
+  align-items: center;         /* Icon und Text vertikal zentrieren */
 }
 
 #entry:selected {
-  background-color: #5e81ac;
-  color: #2e3440;
+  background-color: #33467c;
+  color: #bb9af7;
+  display: flex;
+  align-items: center;
 }
+
+image {
+  margin-right: 0.75em;        /* Abstand zwischen Icon und Text */
+  width: 24px;                 /* Einheitliche Icon-Größe */
+  height: 24px;
+  border-radius: 4px;          /* Optional: leicht abgerundete Ecken */
+  /* Entferne vertical-align, da Flexbox align-items bereits übernimmt */
+}
+
+#scroll {
+  margin: 0;
+}
+
+#outer-box {
+  padding: 16px;               /* Mehr Rand außen */
+}
+
