@@ -9,6 +9,7 @@ vim.opt.relativenumber = false
 vim.g.mapleader = " "
 
 require("config.lazy")
+vim.cmd[[colorscheme tokyonight]]
 
 require('nvim-cursorline').setup {
   cursorline = {
