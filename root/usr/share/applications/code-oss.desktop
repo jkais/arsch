@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Code - OSS
+Exec=code-oss %F
+Icon=com.visualstudio.code.oss
+Type=Application
+StartupNotify=false
+StartupWMClass=code-oss
+Categories=TextEditor;Development;IDE;
+MimeType=application/x-code-oss-workspace;
+Keywords=vscode;
+Icon=com.visualstudio.code.oss
