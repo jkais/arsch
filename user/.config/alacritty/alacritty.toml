@@ -18,5 +18,5 @@ style = { shape = "Block", blinking = "Never" }
 
 [general]
 import = [
-    "~/.config/alacritty/themes/kanagawa_wave.toml"
+    "~/.config/alacritty/themes/tokyo-night.toml"
 ]
