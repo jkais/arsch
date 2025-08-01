@@ -10,9 +10,6 @@ vim.g.mapleader = " "
 
 require("config.lazy")
 
-require("catppuccin").setup()
-vim.cmd.colorscheme "catppuccin"
-
 require('nvim-cursorline').setup {
   cursorline = {
     enable = true,
