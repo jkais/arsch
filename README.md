@@ -39,14 +39,6 @@
 
 - hypr-zoom
 
-## Hasui Colors
-
-- Dark Red: #BF414C
-- Light Red: #D98F89
-- Dark Green: #2E4036
-- Light Green: #557362
-- Beige: #BFAC95
-
 ## Urban Night
 
 - #1e1e2e
@@ -70,12 +62,8 @@
 
 # Todo
 
-- Monitor-Setting
-- Multi-Monitor Setup
-- Resolution + Font-Size
 - Secrets
-- Multi Clipboard
-  - hyprshot to use clipboard
+- hyprshot to use clipboard
 
 - configure mako or test other notification systems
 
@@ -84,15 +72,9 @@
 
 - Go through https://wiki.hypr.land/Hypr-Ecosystem/
 
-- Improve WebApps script
-
 - Waybar
   - Make cava run
   - Weather script?
-
-- Pacman
-  - ILoveCandy in pacman.conf sedden
-
 
 - Themes
   - Mokuhankan Collection?
