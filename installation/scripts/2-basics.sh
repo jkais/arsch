@@ -18,9 +18,13 @@ yay -S --noconfirm --needed \
   btop htop \
   fastfetch cowsay asciiquarium sl cbonsai \
   iw \
-  openconnect wireguard-tools openresolv \
+  openconnect wireguard-tools \
   spotify \
   > /dev/null
 
 sudo systemctl enable sddm > /dev/null
 xdg-settings set default-web-browser firefox.desktop
+
+# If wireguard is fucking up /etc/resolvconf.conf:
+# sudo systemctl enable systemd-resolved --now
+# sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
