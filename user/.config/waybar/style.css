@@ -34,3 +34,8 @@ window#waybar {
 #workspaces button:hover{
   color: #E95F2C;
 }
+
+#custom-arch {
+  color: #1793d1;
+  padding-top: 3px;
+}
