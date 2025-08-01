@@ -18,7 +18,7 @@ yay -S --noconfirm --needed \
   btop htop \
   fastfetch cowsay asciiquarium sl cbonsai \
   iw \
-  openconnect wireguard-tools \
+  openconnect wireguard-tools systemd-resolvconf \
   spotify \
   > /dev/null
 
