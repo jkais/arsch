@@ -39,4 +39,4 @@ web2app "HEY" https://app.hey.com https://www.hey.com/assets/images/general/hey.
 web2app "WhatsApp" https://web.whatsapp.com/ https://medi-suedwest.de/wp-content/uploads/2018/10/whatsapp-official-logo-png-download.png
 web2app "ChatGPT" https://chatgpt.com/ https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/chatgpt.png
 web2app "YouTube" https://youtube.com/ https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/youtube.png
-web2app "Perplexity" https://www.perplexity.ai/ https://images.seeklogo.com/logo-png/61/1/perplexity-ai-icon-black-logo-png_seeklogo-611679.png
+web2app "Perplexity" https://www.perplexity.ai/ https://aws.amazon.com/startups/upload/e4d8d468-90d1-704f-a34e-7e195ce4025a/ceac2e85-dca6-4da4-bbf7-359df7db739d.png
