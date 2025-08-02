@@ -1,7 +1,8 @@
-# Exit immediately if a command exits with a non-zero status
-set -e
+set -eEuo pipefail
 
-#trap "oh, no! error! :("
+last_command=""
+trap 'echo "❌ Fehler in Befehl: $last_command"' ERR
+trap 'last_command=$BASH_COMMAND' DEBUG
 
 # Install all scripts
 #
