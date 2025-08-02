@@ -7,7 +7,10 @@ trap 'last_command=$BASH_COMMAND' DEBUG
 # Install all scripts
 #
 {
-  for f in ~/.local/share/arsch/installation/scripts/*.sh; do source "$f"; done
+  for f in ~/.local/share/arsch/installation/scripts/*.sh; do 
+    echo "executing $f"
+    source "$f"
+  done
 } 
 
 cat << 'EOF'
