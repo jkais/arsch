@@ -1,4 +1,9 @@
-echo "Installing..."
+if [ "${DEBUG:-0}" -eq 1 ]; then
+  echo "debug is on."
+  set -x
+fi
+
+echo "installing..."
 
 sudo pacman -Syu --noconfirm
 sudo pacman -Sy --noconfirm --needed git > /dev/null
