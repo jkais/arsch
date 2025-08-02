@@ -51,7 +51,7 @@
 
 ## Tokyo Tower Night
 
-- Orange: #yiwE95F2C
+- Orange: #E95F2C
 - Night: #121E3F
 - Violet: #6D4F8D
 - Yellow: #DF9F49
