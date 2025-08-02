@@ -1,4 +1,4 @@
-set -eEuo pipefail
+set -e pipefail
 
 last_command=""
 trap 'echo "❌ Fehler in Befehl: $last_command"' ERR
