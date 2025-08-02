@@ -20,11 +20,6 @@ yay -S --noconfirm --needed \
   iw \
   openconnect wireguard-tools systemd-resolvconf \
   spotify \
-  > /dev/null
 
-sudo systemctl enable sddm > /dev/null
+sudo systemctl enable sddm
 xdg-settings set default-web-browser firefox.desktop
-
-# If wireguard is fucking up /etc/resolvconf.conf:
-# sudo systemctl enable systemd-resolved --now
-# sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
