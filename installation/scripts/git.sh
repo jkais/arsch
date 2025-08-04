@@ -1,6 +1,3 @@
-# Need gum to query for input
-yay -S --noconfirm --needed 
-
 # Set git identity
 if [[ -z "$(git config --global user.name)" ]]; then
   USER_NAME=$(gum input --placeholder "Enter full name" --prompt "(git) Name: ")
