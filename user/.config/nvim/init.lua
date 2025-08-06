@@ -96,6 +96,19 @@ require('lualine').setup {
   extensions = {}
 }
 
+require('telekasten').setup({
+  home = vim.fn.expand("~/zettelkasten"),
+})
+
+require('peek').setup({
+  auto_load = true,
+  close_on_bdelete = true,
+  theme = 'light',
+  update_on_change = true,
+  app = '/usr/local/bin/chromium-kiosk.sh',
+  filetype = { 'markdown', "telekasten" },
+})
+
 local builtin = require('telescope.builtin')
 
 vim.keymap.set('n', '<C-p>', function()
