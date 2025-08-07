@@ -1,6 +1,7 @@
 yay -S --noconfirm --needed \
   hyprland \
-  hyprlock hyprpaper hyprshot hypridle \
+  hyprlock hyprpaper hypridle \
+	hyprshot satty \
   hyprpicker hyprsysteminfo \
   swaync loupe \
   waybar wayland-protocols wl-clipboard \
