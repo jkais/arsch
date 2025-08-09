@@ -27,4 +27,3 @@ sudo systemctl enable sddm
 sudo systemctl start sddm
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
-xdg-settings set default-web-browser firefox.desktop
