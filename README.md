@@ -8,7 +8,7 @@
   - Locales
     - Keyboard layout: de
     - Locale language: de_DE.UTF-8
-  - Mirrors & Repositories+
+  - Mirrors & Repositories
     - Select regions -> Germany
   - Disk configuration
     - Partitioning
