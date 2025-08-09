@@ -1,6 +1,6 @@
 yay -S --noconfirm --needed \
 	man less whois \
-	networkmanager iw bind \
+	iw bind \
   openconnect wireguard-tools systemd-resolvconf \
   plymouth \
   sddm qt5-graphicaleffects qt5-quickcontrols2 sddm-sugar-dark \
