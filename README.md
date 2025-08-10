@@ -62,10 +62,8 @@
 
 # Todo
 
+- checkout https://github.com/dandavison/delta
 - Secrets
-- hyprshot to use clipboard
-
-- configure mako or test other notification systems
 
 - hypridle: Remember brightness and reset
 - Booting with Plymouth
@@ -76,14 +74,5 @@
   - Make cava run
   - Weather script?
 
-- Themes
-  - Mokuhankan Collection?
-
-# Shortcuts
-
-# Applications
-
 # Work
 - Waydroid
-- Add customizable script to waybar
-  - exec-once = [workspace 0 silent] slack
