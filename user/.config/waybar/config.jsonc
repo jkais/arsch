@@ -11,6 +11,7 @@
     ],
     "modules-center": [
       "clock",
+      "custom/weather"
     ],
     "modules-right": [
       "pulseaudio",
@@ -130,6 +131,11 @@
         "suspend": "systemctl suspend",
         "hibernate": "systemctl hibernate"
       }
+    },
+    "custom/weather": {
+      "exec": "gotter",
+      "interval": 6000,
+      "format": "{}"
     },
     "power-profiles-daemon": {
       "format": "{icon}",
