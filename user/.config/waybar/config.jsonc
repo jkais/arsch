@@ -134,7 +134,7 @@
     },
     "custom/weather": {
       "exec": "gotter",
-      "interval": 6000,
+      "interval": 600,
       "format": "{}"
     },
     "power-profiles-daemon": {
