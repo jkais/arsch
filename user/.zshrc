@@ -6,9 +6,9 @@ source "${ZINIT_HOME}/zinit.zsh"
 
 zinit ice depth"1"
 zinit light romkatv/powerlevel10k
-
-zinit ice depth"1"
 zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-syntax-highlighting
+zinit light Aloxaf/fzf-tab
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 ZSH_THEME="powerlevel10k/powerlevel10k"
