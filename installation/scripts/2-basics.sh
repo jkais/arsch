@@ -7,7 +7,7 @@ yay -S --noconfirm --needed \
   curl unzip inetutils openssh jq \
   alacritty \
   wl-clipboard cliphist \
-  zoxide bat fzf the_silver_searcher gum \
+  zoxide bat fzf eza the_silver_searcher gum \
   vim neovim luarocks \
 	tig asdf-vm \
   btop htop \

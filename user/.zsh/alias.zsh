@@ -1,6 +1,9 @@
 alias cat="bat"
+
 alias cd="z"
 alias j="z"
+
+alias ls="eza --icons=always --git"
 
 alias t="tig"
 alias v="nvim"
