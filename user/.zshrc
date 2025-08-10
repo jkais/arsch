@@ -46,3 +46,5 @@ function prompt_wireguard() {
 eval "$(zoxide init zsh)"
 
 export PATH="$HOME/.local/bin:$PATH"
+
+source $HOME/.zsh/alias.zsh
