@@ -1,10 +1,10 @@
 # Install
 - Boot from Archlinux install medium
-- ``loadkeys de-latin1``
-- Use iwctl
+- `loadkeys de-latin1`
+- Use `iwctl`
   - station wlan0 scan
   - station wlan0 connect <tab>
-- Use archinstall
+- Use `archinstall`
   - Locales
     - Keyboard layout: de
     - Locale language: de_DE.UTF-8
