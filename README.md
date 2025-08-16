@@ -37,18 +37,6 @@
 
 # Hyprland
 
-- hypr-zoom
-
-## Urban Night
-
-- #1e1e2e
-- #cdd6f4
-- #89b4fa
-- #f38ba8
-- #fab387
-- #a6e3a1
-- #313244
-
 ## Tokyo Tower Night
 
 - Orange: #E95F2C
@@ -62,10 +50,8 @@
 
 # Todo
 
-- checkout https://github.com/dandavison/delta
 - Secrets
 
-- hypridle: Remember brightness and reset
 - Booting with Plymouth
 
 - Go through https://wiki.hypr.land/Hypr-Ecosystem/
@@ -74,5 +60,4 @@
   - Make cava run
   - Weather script?
 
-# Work
-- Waydroid
+- Try out walker rust rewrite
