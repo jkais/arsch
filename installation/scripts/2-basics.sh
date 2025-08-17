@@ -3,7 +3,7 @@ yay -S --noconfirm --needed \
 	iw bind \
   openconnect wireguard-tools systemd-resolvconf \
   plymouth \
-  sddm qt5-graphicaleffects qt5-quickcontrols2 sddm-sugar-dark \
+  qt5-graphicaleffects qt5-quickcontrols2 \
   curl unzip inetutils openssh jq \
   alacritty \
   wl-clipboard cliphist \
@@ -22,6 +22,3 @@ yay -S --noconfirm --needed \
   fastfetch cowsay asciiquarium sl cbonsai \
   spotify \
   okular evince \
-
-sudo systemctl enable sddm
-sudo systemctl start sddm
