@@ -18,7 +18,7 @@ yay -S --noconfirm --needed \
   vlc ffmpeg ffmpegthumbnailer gnome-video-thumbnailer \
   code \
   git-crypt \
-  postman-bin teams-for-linux slack-desktop bruno-bin \
+  postman-bin teams-for-linux slack-desktop-wayland bruno-bin \
   fastfetch cowsay asciiquarium sl cbonsai \
   spotify \
   okular evince \
